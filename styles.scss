@@ -1,0 +1,52 @@
+.contenedorglobal{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: auto;
+
+    
+    &-contenedor{
+        
+
+
+    }
+   
+    &-Nav{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        list-style: none;
+        gap: 3em;
+        place-content: center;
+        text-align: center;
+        padding: 2em;
+       
+        
+
+    }
+    &-List{
+       display: grid;
+       border: 1px solid grey;
+       padding: 2em;
+       border-radius: 10px;
+       place-items: center;
+    
+           
+       img{
+        width: 100px;
+        height: 100px;
+        
+       }
+       
+        
+        
+
+    }
+    &-contenedor2{
+
+    }
+    &-setion{
+
+    }
+}
+
+       
+
